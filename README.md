@@ -454,7 +454,7 @@ There is a commented command module template at `.\Seatbelt\Commands\Template.cs
 
 ## Compile Instructions
 
-We are not planning on releasing binaries for Seatbelt, so you will have to compile yourself.
+You can find the .exe in the release. It is built automatically using GitHub actions.
 
 Seatbelt has been built against .NET 3.5 and 4.0 with C# 8.0 features and is compatible with [Visual Studio Community Edition](https://visualstudio.microsoft.com/downloads/). Simply open up the project .sln, choose "release", and build. To change the target .NET framework version, [modify the project's settings](https://github.com/GhostPack/Seatbelt/issues/27) and rebuild the project.
 
